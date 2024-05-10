@@ -1,0 +1,21 @@
+        diarias         dias
+dia 1 -> D + (0*A)       31
+dia 2 -> D + (1*A)       30
+dia 3 -> D + (2*A)       29
+dia 4 -> D + (3*A)       28
+.
+.
+.
+dia 15 -> D +(14*A)
+dia 16 -> D +(14*A)
+
+1 + 31 = 32
+2 + 30 = 32
+3 + 29 = 32
+4 + 28 = 32
+
+n+dias = 32
+dias = 32 - n
+
+if n >= 15:
+        diaria = D
