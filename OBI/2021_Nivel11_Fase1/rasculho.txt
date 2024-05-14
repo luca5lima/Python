@@ -14,8 +14,15 @@ dia 16 -> D +(14*A)
 3 + 29 = 32
 4 + 28 = 32
 
-n+dias = 32
+n + dias = 32
 dias = 32 - n
 
-if n >= 15:
-        diaria = D
+if n <= 15:
+        diaria = D + ((n-1)*A)
+else:
+        diaria D + 14 * A
+
+Lucas Lima Cavalcante
+Python
+Algebra
+Usuario
