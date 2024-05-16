@@ -1,7 +1,12 @@
 # Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
 
-# Um professor quer sortear um dos seus quatros alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome do escolhido
+# As funções sin(x), cos(x), tan(x) / resuta respequitivamente seno, cosseno e tangente
+# A função radians(x) convete o ângulo de graus para radianos
 
-# O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatros e mostre a ordem sorteada
-
-# Faça um programa que abra e execute um áudio de um arquivo MP3.
+# import math
+from math import sin, cos, tan, radians
+angulo = float(input('Digite um ângulo: '))
+angulo_r = radians(angulo)
+print('Seu seno é: {:.2f} em radianos'.format(sin(angulo_r)))
+print('Seu cosseno é: {:.2f} em radianos'.format(cos(angulo_r)))
+print('Seu tangente é: {:.2f} em radianos'.format(tan(angulo_r)))
